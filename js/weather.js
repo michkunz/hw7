@@ -47,7 +47,7 @@ function gettingJSON(){
       console.log(json["name"]);
       console.log(json["main"]["temp"]);
       console.log(json["weather"][0]["description"]);
-      console.log(json["weather"][0]["icon"]);
+      console.log(json["weather"][0]["icon"] + ", Thank you Uche");
 
       loc.innerHTML = json["name"];
       temp.innerHTML = json["main"]["temp"]+ " with " +(json["weather"][0]["description"]);
