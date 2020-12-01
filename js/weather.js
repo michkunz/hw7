@@ -51,7 +51,7 @@ function gettingJSON(){
 
       loc.innerHTML = json["name"];
       temp.innerHTML = json["main"]["temp"]+ " with " +(json["weather"][0]["description"]);
-      tempImg.src = "http://openweathermap.org/img/wn/"+json["weather"][0]["icon"]+".png"
+      tempImg.src = "https://openweathermap.org/img/wn/"+json["weather"][0]["icon"]+".png"
       tempImg.alt = json["weather"][0]["description"]
 
         //Use returned json to update the values of the three
